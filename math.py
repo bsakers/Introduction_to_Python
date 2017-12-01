@@ -21,5 +21,7 @@ print 22%7
 
 #Division
 print 14/2
- #note that decimal answers will round! More to come on this later
-print 14/3
+ #note that decimal must be declared for division (the later is correct)
+print 5/10
+print 5.0/10
+print 3.25/1.23
