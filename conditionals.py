@@ -19,3 +19,15 @@ matrix()
     # <=  less than or equal to
     # >   greater than
     # >=  greater than or equal to
+
+#'and' is not capitalized (and not & as in other languages).
+ #the below will return false
+print 1 == 1 and 2 > 2
+ #the below will return true
+print 1 == 1 and 2 == 2
+
+#'or' replaces || from other languages
+ #the below will return false
+print 100 ** 0.5 >= 50 or 1 == 2
+ #the below will return true
+print 2 ** 3 == 108 % 100 or 'Brian' == 'Bryan'
