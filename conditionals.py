@@ -31,3 +31,9 @@ print 1 == 1 and 2 == 2
 print 100 ** 0.5 >= 50 or 1 == 2
  #the below will return true
 print 2 ** 3 == 108 % 100 or 'Brian' == 'Bryan'
+
+#'not' is like using !
+ #the below will return false
+print not True
+ #the below will return true
+print not 3 ** 2 + 4 ** 2 != 5 ** 2
