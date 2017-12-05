@@ -42,3 +42,10 @@ var_one= "moments"
 var_two= "time"
 var_three= "rain"
 print "All those %s will be lost in %s, like tears in the %s" %(var_one, var_two, var_three)
+
+#check a string for non-letter characters
+x = "j123"
+print x.isalpha()
+    #the above will return false, because it contains non-letters, but the below will return true
+y = "somethingdifferent"
+print y.isalpha()
