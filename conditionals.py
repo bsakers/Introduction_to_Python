@@ -37,3 +37,20 @@ print 2 ** 3 == 108 % 100 or 'Brian' == 'Bryan'
 print not True
  #the below will return true
 print not 3 ** 2 + 4 ** 2 != 5 ** 2
+
+#operators are ordered as follows: not, and, or. For example, the below will return true
+print True or not False and False
+
+
+#if, elif, else example with a function:
+def my_cool_function(argument):
+    if argument > 9000:
+        return "Over 9000! WHAAAA"
+    elif 1000 < argument < 9000:
+        return "Easy fight for One Punch Man... errr I mean Vageta"
+    else:
+        return "You can't just go around destroying planets cuz you're bored"
+
+print my_cool_function(10000)
+print my_cool_function(2000)
+print my_cool_function(25)
