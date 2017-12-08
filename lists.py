@@ -45,3 +45,11 @@ print dota_heros
 
 #we can find the index of a specific item in the list:
 print dota_heros.index("io")
+
+#we can sort a list alphabetically (for string) or by value (for integers/floats)
+dota_heros.sort()
+print dota_heros
+
+number_list = [0, 3, 1, 17, 8]
+number_list.sort()
+print number_list
