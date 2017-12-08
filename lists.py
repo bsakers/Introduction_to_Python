@@ -53,3 +53,9 @@ print dota_heros
 number_list = [0, 3, 1, 17, 8]
 number_list.sort()
 print number_list
+
+#we can delete from a list with .remove
+number_list.remove(0)
+print number_list
+dota_heros.remove("kunka")
+print dota_heros
