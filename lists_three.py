@@ -60,6 +60,9 @@ def join_names(words):
 names = ["Brian", "Spencer", "Akers"]
 print join_names(names)
 
+#there is a built in function to help with this though! Note that between the "" can be replaced with anything
+print " ".join(names)
+
 #we can also add lists in our functions
 def join_lists(lst1, lst2):
     return lst1 + lst2
