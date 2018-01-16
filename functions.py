@@ -56,3 +56,7 @@ def distance_from_zero(n):
   else:
     return "Not a number (neither integer nor float)"
 print distance_from_zero(-104.33)
+
+#function with more than one argument
+def add_function(x, y):
+    return x + y
