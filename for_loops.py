@@ -20,3 +20,27 @@ for number in start_list:
 
 square_list.sort()
 print square_list
+
+#for loops can be interupted with breaks. Note that eric is never called, and the final else is not executed
+students = ["justin", "kevin", "han", "spicoli", "eric"]
+print "Let\'s run through the roster of students, shall we?"
+for student in students:
+    if student == "spicoli":
+        print "Spicoli? Where is Spicoli? Has anyone seen Spicoli?"
+        break
+    else:
+        print student
+else:
+  print "Great, we're all here; let's get started"
+
+#same as the above, but the spicoli isn't on the roster for this class
+students = ["justin", "kevin", "han", "julie", "eric"]
+print "Let\'s run through the roster of students, shall we?"
+for student in students:
+    if student == "spicoli":
+        print "Spicoli? Where is Spicoli? Has anyone seen Spicoli? I refuse to start class until he arrives"
+        break
+    else:
+        print student
+else:
+  print "Great, we're all here; let's get started"
