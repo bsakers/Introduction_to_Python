@@ -49,3 +49,11 @@ print x.isalpha()
     #the above will return false, because it contains non-letters, but the below will return true
 y = "somethingdifferent"
 print y.isalpha()
+
+#another way to print:
+    #note the comma after the string, followed by an integer (could be another string, float, etc.)
+    #the comma essentially means print the next statement, but on the same line
+number = 1
+print "The number is", number
+word = "Hello"
+print word, "my name is Brian"
