@@ -4,7 +4,7 @@ n= [1, 2, 5, 9]
 n.pop(1)
 print n
 
-    #remove a specific item (not the index)
+    #remove a specific item (not by the index)
 n = [1, 2, 5, 9]
 n.remove(9)
 print n
